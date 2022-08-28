@@ -1,10 +1,11 @@
 import javax.swing.JOptionPane;
 public class Persona {
-
-	public String nombre;
 	
-	public double peso,talla;	
-
+	//variables globales de la clase Persona
+	private String nombre;
+	private double peso,talla;	
+	
+	//Metodo construcctor
 	public Persona(String nombre, double peso, double talla) {
 		
 		this.nombre = nombre;
@@ -12,11 +13,11 @@ public class Persona {
 		this.talla = talla;
 		
 	}
-	
+	//Metodo constructor de Persona vacio
 	public Persona() {
 
 	}
-	
+	/*Metodos getters y setters*/
 	public String getNombre() {
 		return nombre;
 	}
